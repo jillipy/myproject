@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">By the Bolt</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_add_fabric">AddFabric</string>
+    <string name="title_activity_search_fabric">SearchFabric</string>
+    <string name="title_activity_details_fabric">DetailsFabric</string>
+    <string name="title_activity_edit_fabric">EditFabric</string>
+
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Icon(to be changed to picture eventually) -->
+    <ImageView
+        android:id="@+id/fabric_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:padding="2dp"
+        />
+
+    <!-- This will be the main title of the list item that will include name -->
+    <TextView
+        android:id="@+id/fabric_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/fabric_icon"
+        android:layout_alignTop="@+id/fabric_icon"
+        android:layout_margin="5dp"
+        android:textSize="14dp"
+        />
+
+    <!-- This will contain the yardage and date (maybe type?) -->
+    <TextView
+        android:id="@+id/fabric_subtitles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fabric_title"
+        android:layout_alignLeft="@+id/fabric_title"
+        android:textSize="12dp"/>
+
+</RelativeLayout>

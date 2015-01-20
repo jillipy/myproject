@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.jillipi.bythebolt" >
+
+    <uses-sdk android:minSdkVersion="11"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AddFabric"
+            android:label="@string/title_activity_add_fabric"
+            android:parentActivityName=".MainActivity" >
+        </activity>
+        <activity
+            android:name=".SearchFabric"
+            android:label="@string/title_activity_search_fabric"
+            android:parentActivityName=".MainActivity" >
+        </activity>
+        <activity
+            android:name=".DetailsFabric"
+            android:label="@string/title_activity_details_fabric"
+            android:parentActivityName=".MainActivity" >
+        </activity>
+        <activity
+            android:name=".EditFabric"
+            android:label="@string/title_activity_edit_fabric" >
+        </activity>
+    </application>
+
+</manifest>
